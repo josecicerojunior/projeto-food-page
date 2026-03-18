@@ -7,6 +7,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background-color: #fff9ea;
+}
 
 header {
   width: 100%;
@@ -68,10 +71,75 @@ header {
 }
 #cta .title {
   font-size: 4rem;
-  color: #fff9ea;
+  color: #1d1d1d;
 }
-#cat .description {
+
+#cta .title span {
+  color: #e9a209;
+}
+
+#cta .description {
   font-size: 1,5rem;
 }
+#cta_buttons {
+  display: flex;
+  gap: 24px;
+}
 
+#cta_buttons a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
 
+section {
+    padding: 28px 8%;
+}
+
+body {
+  background-color: #fff9ea;
+}
+#phone_btn {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 8px 14px;
+  font-weight: 500;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.shape{
+  background-color:#ffe8b4;
+  width: 50%;
+  height: 100%;
+  position: absolute;  
+  border-radius: 40% 30% 0% 20%;
+  top: 0;
+  right: 0;
+  z-index:-1;
+}
+  /* BOTÕES MÍDIA SOCIAL  */
+
+.social-media-button{
+  display: flex;
+  gap: 18px;
+}
+
+.social-media-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 40px;
+  background-color: #ffffff;
+  font-family: 1.25rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #1d1d1d;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow .3s ease;
+}
+.social-media-button a:hover {
+   box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
